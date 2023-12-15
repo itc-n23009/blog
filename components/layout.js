@@ -1,11 +1,15 @@
 import Header from 'components/header'
-import footer from 'components/footer'
+import Footer from 'components/footer'
 
-const Layout = () => {
-      return(
-        <Header />
-        <main>{children}</main>
-        <Footer />
-      )
+const Layout = ({ children }) => {
+  return (
+    <>
+      <Header />
+
+      <main>{children}</main>
+
+      <Footer />
+    </>
+  )
 }
 export default Layout
