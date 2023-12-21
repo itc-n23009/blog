@@ -1,4 +1,4 @@
-import Social from 'commponents/social'
+import Social from 'components/social'
 import styles from 'styles/contact.module.css'
 
 const Contact = () => {
